@@ -1,0 +1,183 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.hidden
+{
+	display: none;
+}
+
+.icon
+{
+  padding:4px 4px 4px 4px;
+	background-color:#074741;
+	border-radius: 50%;
+	box-shadow:0px 4px 8px 0px rgba(0,0,0, 0.20);
+}
+
+
+.bkg .highlight
+{
+	fill: #FDD08C;
+}
+#container
+{
+	width:600px;
+	margin:0 auto;
+	padding-top:50px;
+}
+
+#touchIcon
+{
+ height:150px;
+ width:150px;
+ float:left;
+ margin-left: 25px;
+}
+
+#touchIcon:hover .bkg
+{
+	fill:#6ad3c9;
+}
+
+#messagesIcon
+{
+	height:150px;
+	width:150px;
+	float:left;
+	margin-left:45px;
+}
+
+#messagesIcon:hover .bkg
+{
+	fill:#6ad3c9;
+}
+
+#viewsIcon
+{
+	height:150px;
+	width:150px;
+	float:left;
+	margin-left:45px;
+	}
+#viewsIcon:hover .bkg
+{
+	fill: #6ad3c9;
+}
+
+#viewsIcon:hover #green
+{
+		fill: #6ad3c9;
+}
+
+#cameraIcon
+{
+	height:150px;
+  width:150px;
+	float:left;
+	margin-left:120px;
+
+}
+#cameraIcon:hover .bkg
+{
+	fill:#6ad3c9;
+}
+.spin
+{
+ visibility:collapse;
+}
+
+#cameraIcon:hover .spin
+{
+	visibility: visible;
+}
+
+#shopIcon
+{
+	height:150px;
+	width:150px;
+	float:right;
+	margin-right:120px;
+}
+
+#shopIcon:hover .bkg
+{
+	fill:#6ad3c9;
+}
+#shopIcon:hover .spin
+{
+	visibility: visible;
+}
+#lipsIcon
+{
+	height:150px;
+	width:150px;
+	float:left;
+	margin-left: 25px;
+}
+#lipsIcon:hover .bkg
+{
+	fill:#6ad3c9;
+}
+#joinIcon
+{
+	height:150px;
+	width:150px;
+	float:left;
+	margin-left: 45px;
+	margin-right:45px;
+}
+#joinIcon:hover .bkg
+{
+	fill:#6ad3c9;
+}
+#joinIcon:hover .spin
+{
+	visibility: visible;
+}
+#profileIcon
+{
+  height:150px;
+	width:150px;
+	float:left;
+}
+#profileIcon:hover .bkg
+{
+	fill:#6ad3c9;
+}
+#likeIcon
+{
+  height:150px;
+	width:150px;
+	float:left;
+	margin-left: 120px;
+}
+#likeIcon:hover .bkg
+{
+	fill:#6ad3c9;
+
+}
+#likeIcon #face
+{
+	visibility: hidden;
+
+}
+#likeIcon:hover #face
+{
+	visibility: visible;
+}
+#galleryIcon
+{
+	height:150px;
+	width:150px;
+	float:right;
+	margin-right:120px;
+}
+
+#galleryIcon:hover .bkg
+{
+	fill:#6ad3c9;
+}
+#galleryIcon:hover #eye2
+{
+	fill:#FBFBFB;
+}
